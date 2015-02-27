@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+body {
+  font: 1em "EB Garamond", Helvetica, Arial, sans-serif;
+  position: relative;
+  letter-spacing: .2em; }
+
+a {
+  text-decoration: none;
+  color: initial; }
+
+h1 {
+  font: 4em "Dancing Script", cursive;
+  letter-spacing: 0;
+  font-weight: normal;
+  padding: 0 0 20px; }
+
+h2 {
+  letter-spacing: .2em;
+  font-weight: normal; }
+
+p {
+  letter-spacing: .1em; }
+
+nav {
+  background: #fffff2;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  height: 45px; }
+  nav ul {
+    padding: 10px;
+    font-size: 1.2em; }
+    nav ul li {
+      display: inline-block;
+      padding: 0 50px; }
+    nav ul i {
+      color: #ffaca4;
+      padding-right: 5px; }
+    nav ul a {
+      color: #ff9796; }
+    nav ul a:hover {
+      border-bottom: 2px solid; }
+
+main > section {
+  text-align: center;
+  overflow: visible;
+  clear: both;
+  padding: 40px 0;
+  box-sizing: border-box;
+  position: relative; }
+main .intro {
+  height: 100vh;
+  position: relative;
+  background: #ffaca4;
+  color: #fffff2; }
+  main .intro h1 {
+    font: 7em "Dancing Script", cursive, sans-sarif;
+    padding-top: 15%; }
+main .info {
+  color: #ff9796; }
+main .details {
+  background: #ffaca4;
+  color: #fffff2; }
+  main .details > section {
+    display: inline-block;
+    width: 31%;
+    margin: 10px 0;
+    vertical-align: top; }
+    main .details > section section {
+      background: #fffff2;
+      color: #ffaca4;
+      margin: 3%;
+      padding: 0 3%;
+      border: 1px solid #fffff2;
+      height: 130px;
+      line-height: 120px; }
+      main .details > section section h3 {
+        font-size: 1.3em;
+        padding-bottom: .2em; }
+      main .details > section section span {
+        vertical-align: middle;
+        display: inline-block;
+        line-height: 22px; }
+main .registry {
+  background: #fffff2;
+  color: #ff9796; }
+  main .registry div {
+    display: inline-block; }
+main .music {
+  background: #ffaca4;
+  color: #fffff2; }
+
+[class*="bg__"] {
+  height: 65vh;
+  /* fix background */
+  background-attachment: fixed;
+  /* center it */
+  background-position: center center;
+  /* Scale it nicely to the element */
+  background-size: cover;
+  /* just make it look a bit better ;) */ }
+  [class*="bg__"]:nth-child(2n) {
+    box-shadow: inset 0 0 1em #111; }
+
+.bg__leola {
+  background-image: url(../images/leola.jpg); }
+  .bg__leola span {
+    display: inline-block;
+    background: #fffff2;
+    padding: 10px 30px 35px 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -259px;
+    margin-top: -125px; }
+
+.bg__registry {
+  background-image: url(../images/background2.jpg); }
