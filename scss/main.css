@@ -121,4 +121,11 @@ main .music {
     margin-top: -125px; }
 
 .bg__registry {
-  background-image: url(../images/background2.jpg); }
+  background: #fffff2;
+  color: #ffaca4;
+  height: 300px; }
+  .bg__registry p {
+    font-size: 25px; }
+  .bg__registry img {
+    height: 60px;
+    margin: 15px 0; }
