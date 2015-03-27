@@ -40,6 +40,8 @@ main {
       section { background: $tertiary; color: $primary; margin: 3%; padding: 0 3%; border: 1px solid $tertiary; height: 130px; line-height: 120px;
         h3 { font-size: 1.3em; padding-bottom: .2em; }
         span { vertical-align: middle; display: inline-block; line-height: 22px; }
+
+        &:hover { background: $ltGray; }
       }
     }
   }
@@ -88,4 +90,12 @@ main {
 
    p { font-size: 25px; }
    img { height: 60px; margin: 15px 0; }
+}
+
+.bg_thankyou {
+  background: $primary; color: $tertiary;
+
+  padding: 100px;
+
+  p { width: 65%; margin: 0 auto; }
 }

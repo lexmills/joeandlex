@@ -87,6 +87,8 @@ main .details {
         vertical-align: middle;
         display: inline-block;
         line-height: 22px; }
+      main .details > section section:hover {
+        background: #f1f0ee; }
 main .registry {
   background: #fffff2;
   color: #ff9796; }
@@ -129,3 +131,11 @@ main .music {
   .bg__registry img {
     height: 60px;
     margin: 15px 0; }
+
+.bg_thankyou {
+  background: #ffaca4;
+  color: #fffff2;
+  padding: 100px; }
+  .bg_thankyou p {
+    width: 65%;
+    margin: 0 auto; }
