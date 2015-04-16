@@ -11,30 +11,29 @@ body { font: 1em "EB Garamond", Helvetica, Arial, sans-serif; position: relative
 
 a { text-decoration: none; color: initial; }
 
-h1 { font: 4em "Dancing Script", cursive; letter-spacing: 0; font-weight: normal; padding: 0 0 20px; }
+h1 { font: 4em "Dancing Script", cursive; letter-spacing: 0; font-weight: normal; padding: 0 0 15px; }
 h2 { letter-spacing: .2em; font-weight: normal; }
 
 p { letter-spacing: .1em; }
 
 nav { background: $tertiary; text-align: center; width: 100%; position: absolute; bottom: 0;  z-index: 1; height: 45px;
-  ul {  padding: 10px; font-size: 1.2em;
+  ul {  padding: 5px; font-size: 1.2em;
     li { display: inline-block; padding: 0 50px; }
     i { color: $primary; padding-right: 5px; }
     a { color: $secondary; }
-    a:hover { border-bottom: 2px solid; }
   }
 }
 
 main {
   & > section { text-align: center; overflow: visible; clear: both; padding: 40px 0; box-sizing: border-box; position: relative; }
 
-  .intro { height: 100vh; position: relative; background: $primary; color: $tertiary;
+  .intro { height: 100vh; position: relative; background: $primary; color: $tertiary; background-image: url(../images/bg.png); background-size: 50%; background-position: center; background-repeat: no-repeat;
     h1 { font: 7em "Dancing Script", cursive, sans-sarif; padding-top: 15%; }
   }
 
   .info { color: $secondary; }
 
-  .details { background: $primary; color: $tertiary;
+  #details { background: $primary; color: $tertiary;
 
     & > section { display: inline-block; width: 31%; margin: 10px 0; vertical-align: top;
       section { background: $tertiary; color: $primary; margin: 3%; padding: 0 3%; border: 1px solid $tertiary; height: 130px; line-height: 120px;
@@ -83,6 +82,8 @@ main {
     margin-left: -259px;
     margin-top: -125px;
   }
+
+  .directions { color: $drkGray; font-style: italic; }
 }
 
 .bg__registry {
