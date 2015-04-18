@@ -101,7 +101,7 @@ main .music {
   color: #fffff2; }
 
 [class*="bg__"] {
-  height: 65vh;
+  height: 80vh;
   /* fix background */
   background-attachment: fixed;
   /* center it */
@@ -119,10 +119,10 @@ main .music {
     background: #fffff2;
     padding: 10px 30px 35px 30px;
     position: absolute;
-    left: 50%;
-    top: 50%;
-    margin-left: -259px;
-    margin-top: -125px; }
+    position: absolute;
+    left: 27%;
+    top: 20%;
+    width: 40%; }
   .bg__leola .directions {
     color: #cccccc;
     font-style: italic; }
