@@ -16,7 +16,7 @@ h1 {
   font: 4em "Dancing Script", cursive;
   letter-spacing: 0;
   font-weight: normal;
-  padding: 0 0 15px; }
+  padding: 0 0 25px; }
 
 h2 {
   letter-spacing: .2em;
@@ -67,8 +67,12 @@ main .intro {
 main .info {
   color: #ff9796; }
 main #ourstory {
-  background: #ff9796;
-  color: #ffaca4; }
+  background: #ffaca4;
+  color: #fffff2;
+  height: 70vh; }
+  main #ourstory p {
+    width: 80%;
+    margin: 20px auto; }
 main #details {
   background: #ffaca4;
   color: #fffff2; }
@@ -84,7 +88,8 @@ main #details {
       padding: 0 3%;
       border: 1px solid #fffff2;
       height: 130px;
-      line-height: 120px; }
+      line-height: 120px;
+      border-radius: 3px; }
       main #details > section section h3 {
         font-size: 1.3em;
         padding-bottom: .2em; }
@@ -93,7 +98,10 @@ main #details {
         display: inline-block;
         line-height: 22px; }
       main #details > section section:hover {
-        background: #f1f0ee; }
+        background: #aaaaaa; }
+main #quote .fa-heart {
+  font-size: 40px;
+  margin-bottom: 20px; }
 main .registry {
   background: #fffff2;
   color: #ff9796; }
@@ -127,8 +135,10 @@ main .music {
     top: 20%;
     width: 40%; }
   .bg__leola .directions {
-    color: #cccccc;
-    font-style: italic; }
+    color: #aaaaaa;
+    font-style: italic;
+    margin-top: 20px;
+    display: inline-block; }
 
 .bg__registry {
   background: #fffff2;
@@ -136,7 +146,7 @@ main .music {
   height: 360px; }
   .bg__registry p {
     font-size: 25px;
-    margin-top: 40px; }
+    margin-top: 30px; }
   .bg__registry img {
     height: 50px;
     margin: 15px 0; }

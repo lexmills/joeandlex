@@ -3,7 +3,7 @@ $secondary : #FF9796;
 $tertiary : #FFFFF2;
 
 $ltGray : #F1F0EE;
-$drkGray : #CCCCCC;
+$drkGray : #aaa;
 
 * { margin: 0; padding: 0; list-style: none; }
 
@@ -11,7 +11,7 @@ body { font: 1em "EB Garamond", Helvetica, Arial, sans-serif; position: relative
 
 a { text-decoration: none; color: initial; }
 
-h1 { font: 4em "Dancing Script", cursive; letter-spacing: 0; font-weight: normal; padding: 0 0 15px; }
+h1 { font: 4em "Dancing Script", cursive; letter-spacing: 0; font-weight: normal; padding: 0 0 25px; }
 h2 { letter-spacing: .2em; font-weight: normal; }
 
 p { letter-spacing: .1em; }
@@ -33,20 +33,24 @@ main {
 
   .info { color: $secondary; }
 
-  #ourstory { background: $secondary; color: $primary;
-
+  #ourstory { background: $primary; color: $tertiary; height: 70vh;
+    p { width: 80%; margin: 20px auto; }
   }
 
   #details { background: $primary; color: $tertiary;
 
     & > section { display: inline-block; width: 31%; margin: 10px 0; vertical-align: top;
-      section { background: $tertiary; color: $primary; margin: 3%; padding: 0 3%; border: 1px solid $tertiary; height: 130px; line-height: 120px;
+      section { background: $tertiary; color: $primary; margin: 3%; padding: 0 3%; border: 1px solid $tertiary; height: 130px; line-height: 120px; border-radius: 3px;
         h3 { font-size: 1.3em; padding-bottom: .2em; }
         span { vertical-align: middle; display: inline-block; line-height: 22px; }
 
-        &:hover { background: $ltGray; }
+        &:hover { background: $drkGray; }
       }
     }
+  }
+
+  #quote {
+    .fa-heart { font-size: 40px; margin-bottom: 20px; }
   }
 
   .registry { background: $tertiary; color: $secondary;
@@ -87,13 +91,13 @@ main {
     width: 40%;
   }
 
-  .directions { color: $drkGray; font-style: italic; }
+  .directions { color: $drkGray; font-style: italic; margin-top: 20px; display: inline-block; }
 }
 
 .bg__registry {
    background: $tertiary; color: $primary;  height: 360px;
 
-   p { font-size: 25px; margin-top: 40px; }
+   p { font-size: 25px; margin-top: 30px; }
    img { height: 50px; margin: 15px 0; }
 }
 
