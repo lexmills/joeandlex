@@ -33,7 +33,7 @@ main {
 
   .info { color: $secondary; }
 
-  #ourstory { background: $primary; color: $tertiary; height: 70vh;
+  #ourstory { background: $primary; color: $tertiary; height: 90vh;
     p { width: 80%; margin: 20px auto; }
   }
 
@@ -50,6 +50,8 @@ main {
   }
 
   #quote {
+    h1 { font-size: 3em; }
+
     .fa-heart-o { font-size: 40px; margin-bottom: 20px; }
   }
 
